@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NTHS Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #004080;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #003060;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    section {
+      padding: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+    }
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>National Technical Honor Society</h1>
+    <p>Empowering Student Achievement</p>
+  </header>
+  <nav>
+    <a href="#requirements">Requirements</a>
+    <a href="#benefits">Benefits</a>
+    <a href="#service">Service Opportunities</a>
+    <a href="#voting">Voting</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <section id="requirements">
+    <h2>Membership Requirements</h2>
+    <ul>
+      <li>Minimum GPA: 3.5</li>
+      <li>Available to Juniors and Seniors</li>
+      <li>Must complete a set number of service hours</li>
+    </ul>
+  </section>
+  <section id="benefits">
+    <h2>Membership Benefits</h2>
+    <ul>
+      <li>Recognition at graduation</li>
+      <li>Scholarship opportunities</li>
+      <li>Leadership development</li>
+    </ul>
+  </section>
+  <section id="service">
+    <h2>Service Opportunities</h2>
+    <p>Check out our regularly updated list of service events!</p>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSlVmXFRUJ7WMTvmGC95q44roIqJ35_JyElY6Fw7Hk8IvJP5Xe1uToJSW46Vt-TKrbJKekMiWjqzvQr/pubhtml?gid=0&single=true&widget=true&headers=false"></iframe>
+  </section>
+  <section id="voting">
+    <h2>Leadership Voting</h2>
+    <p>Vote for your NTHS leadership team below:</p>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5.../viewform?embedded=true" width="640" height="800">Loading…</iframe>
+  </section>
+  <section id="contact">
+    <h2>Contact & Resources</h2>
+    <ul>
+      <li><a href="#">Service Hour Sheet</a></li>
+      <li><a href="#">Application Form</a></li>
+      <li><a href="#">Payment Portal</a></li>
+    </ul>
+  </section>
+  <footer>
+    <p>&copy; 2025 National Technical Honor Society. All rights reserved.</p>
+  </footer>
+</body>
+</html>
